@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><!--useages of list tag(order list)-->
+    <ol type="i" start="5">
+        <li>GTAV</li>
+        <li>GTAVI</li>
+    </ol>
+    <ul style="list-style-type:square;">
+        <li>pen</li>
+        <li>pencil</li>
+        <li>water</li>
+        <li>mock</li>
+
+    </ul>
+<!--just a table-->
+    <table border="1">
+        <tr>
+            <th>Language</th>
+            <th>Competency</th>
+            <th>Experience</th>
+        </tr>
+        <tr>
+            <td>c</td>
+            <td>5</td>
+            <td>10years</td>
+        </tr>
+        <tr>
+            <td>java</td>
+            <td>8/10</td>
+            <td>10years</td>
+        </tr>
+
+    </table> <br>
+<hr>
+<!--a table using colspan-->
+    <table border="2">
+        <tr>
+            <td colspan="3">SAKIB VS LITON</td>
+        </tr>
+
+        <tr>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Money</th>
+        </tr>
+        <tr>
+            <td>sakib</td>
+            <td>2019</td>
+            <td>200k</td>
+        </tr>
+        <tr>
+            <td>liton</td>
+            <td>2020</td>
+            <td>300k</td>
+        </tr>
+        
+            
+        </tr>
+    </table>
+<br><br><hr>
+ <!--useages of form tag-->
+    <form action="/project.php">
+        Username: <input type="text" placeholder="@emailaddress" required="true"><br> 
+        Password: <input type="password"><br>
+        <input type="submit">
+    </form>
+
+    <br>
+    <br>
+    <hr>
+<!--this form code is more good for SEO, -->
+    <form action="/project.php">
+        <label for="username">User Name:</label>
+        <input type="text" id="username" placeholder="@email" required="true"> <br>
+
+        <label for="user_password">Password:</label>
+        <input type="password" id="user_password" placeholder="8 digits password" required="true"> <br>
+
+        <input type="submit">
+    </form>
+    <br>
+    <br>
+    <hr>
+
+<!--explore more input type-->
+    <form action="/project.php">
+        Username: <input type="text" placeholder="@emailaddress" required="true"><br> 
+        Password: <input type="password"><br>
+
+        Dates:<input type="date"> <br>
+        Upload Picture:<input type="file"> <br>
+        Pick a color:<input type="color"> <br>
+        Price range:<input type="range"> <br>
+<!--Add button-->
+        Button: <input type="button" value="Click Me"><br>
+        Submit: <input type="submit" value="Submit"><br>
+
+<!--Add option -->
+        <h2>Subject selection</h2>
+        <label for="science">Science</label>
+        <input type="radio" id="science" name="Subject" value="science"><br>
+        <label for="arts">Arts</label>
+        <input type="radio" id="arts" name="Subject" value="arts"><br>
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="Subject" value="others"><br>
+
+<!--Add checkbox-->
+        <h3>Skills</h3>
+        <label for="cricket">cricket</label>
+        <input type="checkbox" id="cricket" name="Skills" value="cricket"><br>
+        <label for="football">football</label>
+        <input type="checkbox" id="football" name="Skills" value="football"><br>
+        <label for="basketball">basketball</label>
+        <input type="checkbox" id="basketball" name="Skills" value="basketball">
+    </form>
+<br>
+<hr>
+<!--Selection choice-->
+    <form action="html.php">
+        <label for="country">Select a Country:</label>
+        <select name="country" id="country" required="true">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Others">Others</option>
+        </select>
+    </form>
+
+<br>
+<hr>
+    <form action="index.html">
+        <label for="story">Write a story...</label>
+        <textarea name="story" id="story" cols="32" rows="5">please write a story...</textarea>
+
+
+    </form>
+
+    <br>
+    <hr>
+    <form action="index.php">
+        <h3>wikipedia...</h3>
+        <iframe src="https://www.wikipedia.org/" width="300" height="200">youtube</iframe><br> <hr>
+        <h3>BAN VS NZ</h3>
+        <iframe width="360" height="315" src="https://www.youtube.com/embed/oOwZdVaRtx8?si=5wj1TQdQn5hVfm1l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>ban VS nz</iframe>
+    </form>
+</body>
+</html>
